@@ -12,6 +12,7 @@ body {
   color: #e9afa3;
   font-family: "Roboto", Arial;
   padding: 15px;
+  letter-spacing: 1.2px;
 }
 
 a {
@@ -48,6 +49,7 @@ h5,
 h6 {
   color: #f9dec9;
   border-bottom: 2px solid #f9dec9;
+  border-right: 2px solid #f9dec9;
 }
 
 table {
