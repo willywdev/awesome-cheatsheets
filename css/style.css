@@ -68,3 +68,8 @@ thead {
 td {
   padding: 5px;
 }
+
+li {
+  list-style-type: "🔥";
+  margin-bottom: 5px;
+}
