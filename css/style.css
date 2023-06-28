@@ -23,7 +23,6 @@ a {
 
 a:hover {
   color: #f9dec9;
-  transform: scale(1.1);
 }
 
 img {
@@ -96,17 +95,21 @@ td {
   font-size: 0.9rem;
 }
 
-#links ul li {
+.links ul li {
   list-style-type: "🔥";
   margin-bottom: 5px;
 }
 
-#quicklinks a {
+.quicklinks a {
   display: block;
   margin-bottom: 3px;
 }
 
-#quicklinks a:before {
+.quicklinks a:before {
   content: "💩";
   margin-right: 3px;
+}
+
+.quicklinks a:hover:before {
+  content: "🍎";
 }
