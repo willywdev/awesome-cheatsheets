@@ -14,6 +14,8 @@ body {
   padding: 15px;
   letter-spacing: 1.2px;
   margin-top: 2.5rem;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 a {
@@ -27,6 +29,7 @@ a:hover {
 
 img {
   border-radius: 20px;
+  width: 250px;
 }
 
 header {
@@ -123,4 +126,16 @@ td {
 
 .quicklinks a:hover:before {
   content: "↘️";
+}
+
+.cheatsheet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+figure {
+  width: 250px;
+  text-align: center;
+  font-size: 0.8rem;
 }
