@@ -95,7 +95,7 @@ td {
   font-size: 0.9rem;
 }
 
-.links ul li {
+.links > ul > li {
   list-style-type: "🔥";
   margin-bottom: 5px;
 }
