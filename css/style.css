@@ -101,12 +101,12 @@ td {
 
 .links > ul > li {
   list-style-type: "🔥";
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
 .quicklinks a {
   display: block;
-  margin-bottom: 3px;
+  margin-bottom: 8px;
 }
 
 .quicklinks a:before {
@@ -115,5 +115,5 @@ td {
 }
 
 .quicklinks a:hover:before {
-  content: "📑";
+  content: "↘️";
 }
