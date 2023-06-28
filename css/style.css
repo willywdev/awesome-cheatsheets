@@ -84,6 +84,10 @@ table {
   margin: 15px;
 }
 
+table tr:nth-child(2n + 2) {
+  background-color: #9c7664;
+}
+
 thead {
   background-color: #e9afa3;
   color: #685044;
