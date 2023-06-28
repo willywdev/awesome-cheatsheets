@@ -14,6 +14,8 @@ body {
   padding: 15px;
   letter-spacing: 1.2px;
   margin-top: 2.5rem;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 a {
@@ -27,6 +29,7 @@ a:hover {
 
 img {
   border-radius: 20px;
+  width: 250px;
 }
 
 header {
@@ -71,10 +74,10 @@ p {
 }
 
 code {
-  background-color: #3a405a;
-  padding: 2px;
+  background-color: #3c3c3c;
+  padding: 3px;
   margin: 2px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 table {
@@ -84,6 +87,17 @@ table {
   margin: 15px;
 }
 
+table,
+tr,
+td,
+thead {
+  border: 1px solid black;
+}
+
+table tr:nth-child(2n + 2) {
+  background-color: #866455;
+}
+
 thead {
   background-color: #e9afa3;
   color: #685044;
@@ -91,18 +105,18 @@ thead {
 }
 
 td {
-  padding: 5px;
+  padding: 8px;
   font-size: 0.9rem;
 }
 
 .links > ul > li {
   list-style-type: "🔥";
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
 .quicklinks a {
   display: block;
-  margin-bottom: 3px;
+  margin-bottom: 8px;
 }
 
 .quicklinks a:before {
@@ -111,5 +125,17 @@ td {
 }
 
 .quicklinks a:hover:before {
-  content: "📑";
+  content: "↘️";
+}
+
+.cheatsheet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+figure {
+  width: 250px;
+  text-align: center;
+  font-size: 0.8rem;
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Cheatsheet</title>
+    <title>Awesome Cheatsheets</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -62,7 +62,7 @@
       }
     </style>
     <header>
-      <h1>Willy's Cheatsheets</h1>
+      <h1>Awesome Cheatsheets</h1>
       <nav>
         <a href="index.html">Start</a>
         <a href="#about">About</a>
@@ -81,18 +81,106 @@
       <section id="about">
         <h2>About</h2>
         <p>
-          Willy's Cheatsheets is a handy website for web developers and coding
+          Awesome Cheatsheets is a handy website for web developers and coding
           enthusiasts. <br />
           It provides a quick and easy reference guide for coding syntax and
           tags.
         </p>
       </section>
-      <section id="html-cheatsheet">
-        <h2>HTML Cheatsheet</h2>
-        <p>
-          Note: Remove the spaces for the code to work and remember the closing
-          tags
-        </p>
+      <h2>Shell Cheatsheet</h2>
+      <section id="shell-cheatsheet" class="cheatsheet">
+        <!-- TODO Change table content to Terminal -->
+
+        <table border="1">
+          <thead>
+            <tr>
+              <td><strong>Code</strong></td>
+              <td><strong>Description</strong></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <code>cd [folder]</code>
+              </td>
+              <td>change directory</td>
+            </tr>
+            <tr>
+              <td><code>cd ~</code></td>
+              <td>Home directory</td>
+            </tr>
+            <tr>
+              <td><code>ls</code></td>
+              <td>lists elements in folder</td>
+            </tr>
+            <tr>
+              <td><code>ls -la</code></td>
+              <td>long list with hidden elements</td>
+            </tr>
+            <tr>
+              <td><code>open [file]</code></td>
+              <td>Opens a file or if . (dot) is provided, opens Finder</td>
+            </tr>
+            <tr>
+              <td><code>clear</code></td>
+              <td>cleears terminal history</td>
+            </tr>
+            <tr>
+              <td><code>touch [file]</code></td>
+              <td>creates a file</td>
+            </tr>
+            <tr>
+              <td><code>pwd</code></td>
+              <td>prints full path to working directory</td>
+            </tr>
+            <tr>
+              <td><code>. (dot)</code></td>
+              <td>current folder</td>
+            </tr>
+            <tr>
+              <td><code>.. (dot dot)</code></td>
+              <td>parent folder</td>
+            </tr>
+            <tr>
+              <td><code>cat [file]</code></td>
+              <td>print content of file to terminal</td>
+            </tr>
+            <tr>
+              <td><code>rm [file]</code></td>
+              <td>removes file</td>
+            </tr>
+            <tr>
+              <td><code>rm -r [directory]</code></td>
+              <td>removes a directory / folder</td>
+            </tr>
+            <tr>
+              <td><code>mv [file] [new filename / path]</code></td>
+              <td>renames file or directory or moves them</td>
+            </tr>
+            <tr>
+              <td><code>mkdir [directory]</code></td>
+              <td>creates a new directory / folder</td>
+            </tr>
+          </tbody>
+        </table>
+        <figure>
+          <img
+            src="https://img.freepik.com/vektoren-kostenlos/suesse-katze-wuetend-cartoon-vektor-symbol-illustration-tiernatur-ikonen-konzept-lokalisierter-erstklassiger-vektor_138676-7145.jpg?w=996&t=st=1687948080~exp=1687948680~hmac=559598419ce2e9bf13dfb9fcf31252245bfdd938f17d5ec916a245d41defaa01"
+            alt="Image of a PC, that has cat traits"
+            loading="lazy" />
+          <figcaption>
+            <a
+              href="https://de.freepik.com/vektoren-kostenlos/netter-katzencomputer-mit-mauskarikatur-vektorikonen-illustration-tiertechnologie-symbol-konzept-isoliert-premium-vektor-flacher-cartoon-stil_18537569.htm#query=cat%20coding&position=0&from_view=search&track=ais"
+              >Bild von catalyststuff</a
+            >
+            auf Freepik
+          </figcaption>
+        </figure>
+      </section>
+
+      <h2>HTML Cheatsheet</h2>
+      <p>Note: Remember the closing tags, except for self-closing tags</p>
+      <section id="html-cheatsheet" class="cheatsheet">
         <table border="1">
           <thead>
             <tr>
@@ -103,7 +191,7 @@
           <tbody>
             <tr>
               <td>
-                <code>< a href=""></code>
+                <code>&lt;a href=""></code>
               </td>
               <td>
                 Anchor tag or hyperlink. Link to external URLs or sections on
@@ -111,38 +199,37 @@
               </td>
             </tr>
             <tr>
-              <td><code>< body></code></td>
+              <td><code>&lt;body></code></td>
               <td>The document's body is required.</td>
             </tr>
             <tr>
-              <td><code>< br></code></td>
+              <td><code>&lt;br></code></td>
               <td>Single line text break.</td>
             </tr>
             <tr>
-              <td><code>< form></code></td>
+              <td><code>&lt;form></code></td>
               <td>Form for user input which wraps the input fields.</td>
             </tr>
             <tr>
-              <td><code>< h1, h2, h3, h4, ...></code></td>
+              <td><code>&lt;h1, h2, h3, h4, ...></code></td>
               <td>HTML headings. H1 is the main heading of the page.</td>
             </tr>
             <tr>
-              <td><code>< img></code></td>
+              <td><code>&lt;img></code></td>
               <td>Image on the page.</td>
             </tr>
             <tr>
-              <td><code>< ol></code></td>
+              <td><code>&lt;ol></code></td>
               <td>Ordered List</td>
             </tr>
           </tbody>
         </table>
-      </section>
-      <section>
         <figure>
           <img
             src="https://img.freepik.com/vektoren-kostenlos/netter-katzencomputer-mit-mauskarikatur-vektorikonen-illustration-tiertechnologie-symbol-konzept-isoliert-premium-vektor-flacher-cartoon-stil_138676-3695.jpg?w=996&t=st=1687776209~exp=1687776809~hmac=a1887c66b3483d7a4f8b6a43ff0f4cc5cf1a31833cd8ad0598e8198a6cb7ef5d"
             alt="Image of a PC, that has cat traits"
-            width="300px" />
+            width="300px"
+            loading="lazy" />
           <figcaption>
             <a
               href="https://de.freepik.com/vektoren-kostenlos/netter-katzencomputer-mit-mauskarikatur-vektorikonen-illustration-tiertechnologie-symbol-konzept-isoliert-premium-vektor-flacher-cartoon-stil_18537569.htm#query=cat%20coding&position=0&from_view=search&track=ais"
@@ -152,12 +239,10 @@
           </figcaption>
         </figure>
       </section>
+
       <section id="links" class="links">
         <h2>Links</h2>
         <ul>
-          <li>
-            <a href="https://github.com/willywdev/personal-website">Github</a>
-          </li>
           <li>
             <a
               href="https://img.freepik.com/fotos-kostenlos/nahaufnahme-portraet-auf-schoene-katze_23-2149214419.jpg?w=996&t=st=1687776181~exp=1687776781~hmac=e6e5642df5fd7b9f4250c7e39ded624f8262ab25b5b13d3091d9378283eb1fa1"
