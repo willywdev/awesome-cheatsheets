@@ -71,10 +71,10 @@ p {
 }
 
 code {
-  background-color: #3a405a;
-  padding: 2px;
+  background-color: #3c3c3c;
+  padding: 3px;
   margin: 2px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 table {
@@ -84,8 +84,15 @@ table {
   margin: 15px;
 }
 
+table,
+tr,
+td,
+thead {
+  border: 1px solid black;
+}
+
 table tr:nth-child(2n + 2) {
-  background-color: #9c7664;
+  background-color: #866455;
 }
 
 thead {
