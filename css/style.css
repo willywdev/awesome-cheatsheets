@@ -13,6 +13,7 @@ body {
   font-family: "Roboto", Arial;
   padding: 15px;
   letter-spacing: 1.2px;
+  margin-top: 2.5rem;
 }
 
 a {
@@ -31,14 +32,26 @@ img {
 
 header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+header h1 {
+  text-align: center;
+  padding-bottom: 1rem;
+  border-left: 2px solid #f9dec9;
 }
 
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  width: 50%;
+  justify-content: center;
+  width: 100%;
+}
+
+nav a {
+  margin-right: 2rem;
 }
 
 h1,
@@ -52,6 +65,17 @@ h6 {
   border-right: 2px solid #f9dec9;
   padding-right: 10px;
   padding-left: 5px;
+}
+
+p {
+  line-height: 1.3rem;
+}
+
+code {
+  background-color: #3a405a;
+  padding: 2px;
+  margin: 2px;
+  border-radius: 5px;
 }
 
 table {
@@ -69,6 +93,7 @@ thead {
 
 td {
   padding: 5px;
+  font-size: 0.9rem;
 }
 
 li {
