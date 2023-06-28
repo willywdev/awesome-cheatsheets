@@ -106,10 +106,10 @@ td {
 }
 
 .quicklinks a:before {
-  content: "💩";
+  content: "↘️";
   margin-right: 3px;
 }
 
 .quicklinks a:hover:before {
-  content: "🍎";
+  content: "📑";
 }
