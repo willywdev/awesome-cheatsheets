@@ -94,7 +94,7 @@
         <table border="1">
           <thead>
             <tr>
-              <td><strong>Code</strong></td>
+              <td><strong>Command</strong></td>
               <td><strong>Description</strong></td>
             </tr>
           </thead>
@@ -177,64 +177,78 @@
         </figure>
       </section>
       <!-- * GIT Cheatsheet starting -->
+      <!-- !Add content, before merging branches or adding anything other than git commands -->
       <h2>Git Cheatsheet</h2>
       <section id="git-cheatsheet" class="cheatsheet">
         <table border="1">
           <thead>
             <tr>
-              <td><strong>Tag</strong></td>
+              <td><strong>Command</strong></td>
               <td><strong>Description</strong></td>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>
-                <code>&lt;a href=""></code>
+                <code>git init</code>
               </td>
+              <td>initialize an existing directory as a Git repository</td>
+            </tr>
+            <tr>
+              <td><code>git clone [URL]</code></td>
               <td>
-                Anchor tag or hyperlink. Link to external URLs or sections on
-                the page.
+                retrieve an entire repository from a hosted location via URL
               </td>
             </tr>
             <tr>
-              <td><code>&lt;body></code></td>
-              <td>The document's body is required.</td>
+              <td><code>git status</code></td>
+              <td>
+                show modified files in working directory, staged for your next
+                commit
+              </td>
             </tr>
             <tr>
-              <td><code>&lt;br></code></td>
-              <td>Single line text break.</td>
+              <td><code>git add [file]</code></td>
+              <td>add a file as it looks now to your next commit (stage)</td>
             </tr>
             <tr>
-              <td><code>&lt;form></code></td>
-              <td>Form for user input which wraps the input fields.</td>
+              <td><code>git commit -m "[commit message]"</code></td>
+              <td>commit your staged content as a new commit snapshot</td>
             </tr>
             <tr>
-              <td><code>&lt;h1, h2, h3, h4, ...></code></td>
-              <td>HTML headings. H1 is the main heading of the page.</td>
+              <td><code>git restore [file]</code></td>
+              <td>Return to the last commited state of the file</td>
             </tr>
             <tr>
-              <td><code>&lt;img></code></td>
-              <td>Image on the page.</td>
+              <td><code>git log</code></td>
+              <td>show the commit history for the currently active branch</td>
             </tr>
             <tr>
-              <td><code>&lt;ol></code></td>
-              <td>Ordered List</td>
+              <td><code>git remote add [branch] [url]</code></td>
+              <td>
+                Connect to an external repository (like Github for example).
+                Default branch is origin
+              </td>
             </tr>
             <tr>
-              <td><code>&lt;p></code></td>
-              <td>Paragraph</td>
+              <td><code>git push</code></td>
+              <td>Transmit local branch commits to the remote repository</td>
             </tr>
             <tr>
-              <td><code>&lt;strong></code></td>
-              <td>Bold Text</td>
+              <td><code>git pull</code></td>
+              <td>Transmit remote branch commits to local repository</td>
             </tr>
             <tr>
-              <td><code>&lt;em></code></td>
-              <td>Italic Text</td>
+              <td><code>git switch -c [branchname]</code></td>
+              <td>creates a new branch</td>
             </tr>
             <tr>
-              <td><code>&lt;!--HTML COMMENT--></code></td>
-              <td>Comment, no functionality in code</td>
+              <td><code>git switch [branchname]</code></td>
+              <td>switch branches</td>
+            </tr>
+            <tr>
+              <td><code>git branch --delete [branchname]</code></td>
+              <td>delete branch</td>
             </tr>
           </tbody>
         </table>

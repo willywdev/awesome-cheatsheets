@@ -29,7 +29,7 @@ a:hover {
 
 img {
   border-radius: 20px;
-  width: 250px;
+  width: 200px;
 }
 
 header {
@@ -107,6 +107,7 @@ thead {
 td {
   padding: 8px;
   font-size: 0.9rem;
+  line-height: 1.5rem;
 }
 
 .links > ul > li {
