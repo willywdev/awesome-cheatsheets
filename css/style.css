@@ -31,7 +31,7 @@ img {
   border-radius: 20px;
   width: 200px;
 }
-/* ! Fix header spacing + fix nav spacing */
+/* ! split spacing for nav items to be equally divided */
 
 header {
   display: flex;
@@ -166,7 +166,7 @@ figure {
 }
 
 section {
-  scroll-margin-top: 160px;
+  scroll-margin-top: 190px;
 }
 
 .quicklinks {
