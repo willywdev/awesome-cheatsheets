@@ -13,7 +13,7 @@ body {
   font-family: "Roboto", Arial;
   padding: 15px;
   letter-spacing: 1.2px;
-  margin-top: 2.5rem;
+  margin-top: 0;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -37,12 +37,18 @@ header {
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 150px;
+  background-color: #685044;
+  border-bottom: 2px solid #f9dec9;
 }
 
 header h1 {
   text-align: center;
   padding-bottom: 1rem;
-  border-left: 2px solid #f9dec9;
+  border-right: none;
 }
 
 nav {
@@ -54,6 +60,18 @@ nav {
 
 nav a {
   margin-right: 2rem;
+  background-color: #f9dec9;
+  padding: 7px;
+  border-radius: 25px;
+  color: #685044;
+  font-weight: 600;
+  border: 2px solid transparent;
+}
+
+nav a:hover {
+  color: #f9dec9;
+  background-color: #685044;
+  border: 2px solid #f9dec9;
 }
 
 h1,
@@ -139,4 +157,8 @@ figure {
   width: 250px;
   text-align: center;
   font-size: 0.8rem;
+}
+
+.quicklinks {
+  margin-top: 160px;
 }
