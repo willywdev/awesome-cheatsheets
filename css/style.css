@@ -159,6 +159,10 @@ figure {
   font-size: 0.8rem;
 }
 
+section {
+  scroll-margin-top: 160px;
+}
+
 .quicklinks {
   margin-top: 160px;
 }
