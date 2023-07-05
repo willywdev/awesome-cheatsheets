@@ -19,7 +19,7 @@ body {
 }
 
 a {
-  color: #e6853b;
+  color: #ff6f00;
   text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ header {
   left: 0;
   top: 0;
   background-color: #685044;
-  border-bottom: 2px solid #f9dec9;
+  border-bottom: 1px solid black;
 }
 
 header h1 {
@@ -136,25 +136,16 @@ td:first-child {
   width: 300px;
 }
 
-.links > ul > li {
-  list-style-type: "🔥";
-  margin-bottom: 3px;
-}
-
 .quicklinks a {
-  display: block;
   margin-bottom: 8px;
 }
-
-.quicklinks a:before {
-  content: "↘️";
-  margin-right: 3px;
+.quicklinks img {
+  all: unset;
+  width: 25px;
+  border: none;
+  border-radius: none;
+  vertical-align: middle;
 }
-
-.quicklinks a:hover:before {
-  content: "↘️";
-}
-
 .cheatsheet {
   display: flex;
   justify-content: space-between;
@@ -173,4 +164,36 @@ section {
 
 .quicklinks {
   margin-top: 170px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  z-index: 5;
+  bottom: 0;
+  background-color: #685044;
+  width: 100%;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  border-top: 1px solid black;
+  font-size: 0.9rem;
+}
+
+footer img {
+  all: unset;
+  width: 25px;
+  height: 25px;
+  color: white;
+  margin-right: 4px;
+}
+footer a {
+  color: #f9dec9;
+  margin-right: 1rem;
+}
+footer a:hover {
+  color: #ff6f00;
 }
