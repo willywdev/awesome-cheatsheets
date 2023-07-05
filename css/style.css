@@ -30,6 +30,7 @@ a:hover {
 img {
   border-radius: 20px;
   width: 200px;
+  border: 2px solid #685044;
 }
 /* ! split spacing for nav items to be equally divided */
 
