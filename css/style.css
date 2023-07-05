@@ -8,8 +8,8 @@
 }
 
 body {
-  background-color: #3a405a;
-  color: #e9afa3;
+  background-color: #f9dec9;
+  color: #685044;
   font-family: "Roboto", Arial;
   padding: 15px;
   letter-spacing: 1.2px;
@@ -19,12 +19,12 @@ body {
 }
 
 a {
-  color: #99b2dd;
+  color: #e6853b;
   text-decoration: none;
 }
 
 a:hover {
-  color: #f9dec9;
+  color: #685044;
 }
 
 img {
@@ -49,6 +49,8 @@ header h1 {
   text-align: center;
   padding-bottom: 21px;
   border-right: none;
+  color: #f9dec9;
+  border-bottom: 2px solid #f9dec9;
 }
 
 nav {
@@ -75,15 +77,14 @@ nav a:hover {
   border: 2px solid #f9dec9;
 }
 
-h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: #f9dec9;
-  border-bottom: 2px solid #f9dec9;
-  border-right: 2px solid #f9dec9;
+  color: #685044;
+  border-bottom: 2px solid #685044;
+  border-right: 2px solid #685044;
   padding-right: 10px;
   padding-left: 5px;
 }
@@ -119,8 +120,8 @@ table tr:nth-child(2n + 2) {
 }
 
 thead {
-  background-color: #e9afa3;
-  color: #685044;
+  background-color: #b9967c;
+  color: #f9dec9;
   text-align: center;
 }
 
