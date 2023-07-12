@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Awesome Cheatsheets</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/prism.css" />
+    <script src="prism.js" defer></script>
   </head>
   <body>
     <header>
@@ -119,64 +121,94 @@
           <tbody>
             <tr>
               <td>
-                <code>cd [folder]</code>
+                <pre><code class="language-bash">cd [folder]</code></pre>
               </td>
               <td>change directory</td>
             </tr>
             <tr>
-              <td><code>cd ~</code></td>
+              <td>
+                <pre><code class="language-bash">cd ~</code></pre>
+              </td>
               <td>Home directory</td>
             </tr>
             <tr>
-              <td><code>ls</code></td>
+              <td>
+                <pre><code class="language-bash">ls</code></pre>
+              </td>
               <td>lists elements in folder</td>
             </tr>
             <tr>
-              <td><code>ls -la</code></td>
+              <td>
+                <pre><code class="language-bash">ls -la</code></pre>
+              </td>
               <td>long list with hidden elements</td>
             </tr>
             <tr>
-              <td><code>open [file]</code></td>
+              <td>
+                <pre><code class="language-bash">open [file]</code></pre>
+              </td>
               <td>Opens a file or if . (dot) is provided, opens Finder</td>
             </tr>
             <tr>
-              <td><code>clear</code></td>
+              <td>
+                <pre><code class="language-bash">clear</code></pre>
+              </td>
               <td>cleears terminal history</td>
             </tr>
             <tr>
-              <td><code>touch [file]</code></td>
+              <td>
+                <pre><code class="language-bash">touch [file]</code></pre>
+              </td>
               <td>creates a file</td>
             </tr>
             <tr>
-              <td><code>pwd</code></td>
+              <td>
+                <pre><code class="language-bash">pwd</code></pre>
+              </td>
               <td>prints full path to working directory</td>
             </tr>
             <tr>
-              <td><code>. (dot)</code></td>
+              <td>
+                <pre><code class="language-bash">. (dot)</code></pre>
+              </td>
               <td>current folder</td>
             </tr>
             <tr>
-              <td><code>.. (dot dot)</code></td>
+              <td>
+                <pre><code class="language-bash">.. (dot dot)</code></pre>
+              </td>
               <td>parent folder</td>
             </tr>
             <tr>
-              <td><code>cat [file]</code></td>
+              <td>
+                <pre><code class="language-bash">cat [file]</code></pre>
+              </td>
               <td>print content of file to terminal</td>
             </tr>
             <tr>
-              <td><code>rm [file]</code></td>
+              <td>
+                <pre><code class="language-bash">rm [file]</code></pre>
+              </td>
               <td>removes file</td>
             </tr>
             <tr>
-              <td><code>rm -r [directory]</code></td>
+              <td>
+                <pre><code class="language-bash">rm -r [directory]</code></pre>
+              </td>
               <td>removes a directory / folder</td>
             </tr>
             <tr>
-              <td><code>mv [file] [new filename / path]</code></td>
+              <td>
+                <pre>
+                  <code class="language-bash">mv [file][new filename/path]</code>
+                </pre>
+              </td>
               <td>renames file or directory or moves them</td>
             </tr>
             <tr>
-              <td><code>mkdir [directory]</code></td>
+              <td>
+                <pre><code class="language-bash">mkdir [directory]</code></pre>
+              </td>
               <td>creates a new directory / folder</td>
             </tr>
           </tbody>
@@ -207,64 +239,88 @@
           <tbody>
             <tr>
               <td>
-                <code>git init</code>
+                <pre><code class="language-git">git init</code></pre>
               </td>
               <td>initialize an existing directory as a Git repository</td>
             </tr>
             <tr>
-              <td><code>git clone [URL]</code></td>
+              <td>
+                <pre><code class="language-git">git clone [URL]</code></pre>
+              </td>
               <td>
                 retrieve an entire repository from a hosted location via URL
               </td>
             </tr>
             <tr>
-              <td><code>git status</code></td>
+              <td>
+                <pre><code class="language-git">git status</code></pre>
+              </td>
               <td>
                 show modified files in working directory, staged for your next
                 commit
               </td>
             </tr>
             <tr>
-              <td><code>git add [file]</code></td>
+              <td>
+                <pre><code class="language-git">git add [file]</code></pre>
+              </td>
               <td>add a file as it looks now to your next commit (stage)</td>
             </tr>
             <tr>
-              <td><code>git commit -m "[commit message]"</code></td>
+              <td>
+                <pre><code class="language-git">git commit -m "[commit message]"</code></pre>
+              </td>
               <td>commit your staged content as a new commit snapshot</td>
             </tr>
             <tr>
-              <td><code>git restore [file]</code></td>
+              <td>
+                <pre><code class="language-git">git restore [file]</code></pre>
+              </td>
               <td>Return to the last commited state of the file</td>
             </tr>
             <tr>
-              <td><code>git log</code></td>
+              <td>
+                <pre><code class="language-git">git log</code></pre>
+              </td>
               <td>show the commit history for the currently active branch</td>
             </tr>
             <tr>
-              <td><code>git remote add [branch] [url]</code></td>
+              <td>
+                <pre><code class="language-git">git remote add [branch] [url]</code></pre>
+              </td>
               <td>
                 Connect to an external repository (like Github for example).
                 Default branch is origin
               </td>
             </tr>
             <tr>
-              <td><code>git push</code></td>
+              <td>
+                <pre><code class="language-git">git push</code></pre>
+              </td>
               <td>Transmit local branch commits to the remote repository</td>
             </tr>
             <tr>
-              <td><code>git pull</code></td>
+              <td>
+                <pre><code class="language-git">git pull</code></pre>
+              </td>
               <td>Transmit remote branch commits to local repository</td>
             </tr>
             <tr>
-              <td><code>git switch -c [branchname]</code></td>
+              <td>
+                <pre><code class="language-git">git switch -c [branchname]</code></pre>
+              </td>
               <td>creates a new branch</td>
             </tr>
             <tr>
-              <td><code>git switch [branchname]</code></td>
+              <td>
+                <pre><code class="language-git">git switch [branchname]</code></pre>
+              </td>
               <td>switch branches</td>
             </tr>
             <tr>
-              <td><code>git branch --delete [branchname]</code></td>
+              <td>
+                <pre><code class="language-git">git branch --delete [branchname]</code></pre>
+              </td>
               <td>delete branch</td>
             </tr>
           </tbody>
@@ -297,7 +353,7 @@
           <tbody>
             <tr>
               <td>
-                <code>&lt;a href=""></code>
+                <pre><code class="language-html">&lt;a href=""></code></pre>
               </td>
               <td>
                 Anchor tag or hyperlink. Link to external URLs or sections on
@@ -305,43 +361,63 @@
               </td>
             </tr>
             <tr>
-              <td><code>&lt;body></code></td>
+              <td>
+                <pre><code class="language-html">&lt;body></code></pre>
+              </td>
               <td>The document's body is required.</td>
             </tr>
             <tr>
-              <td><code>&lt;br></code></td>
+              <td>
+                <pre><code class="language-html">&lt;br></code></pre>
+              </td>
               <td>Single line text break.</td>
             </tr>
             <tr>
-              <td><code>&lt;form></code></td>
+              <td>
+                <pre><code class="language-html">&lt;form></code></pre>
+              </td>
               <td>Form for user input which wraps the input fields.</td>
             </tr>
             <tr>
-              <td><code>&lt;h1, h2, h3, h4, ...></code></td>
+              <td>
+                <pre><code class="language-html">&lt;h1, h2, h3, h4, ...></code></pre>
+              </td>
               <td>HTML headings. H1 is the main heading of the page.</td>
             </tr>
             <tr>
-              <td><code>&lt;img></code></td>
+              <td>
+                <pre><code class="language-html">&lt;img></code></pre>
+              </td>
               <td>Image on the page.</td>
             </tr>
             <tr>
-              <td><code>&lt;ol></code></td>
+              <td>
+                <pre><code class="language-html">&lt;ol></code></pre>
+              </td>
               <td>Ordered List</td>
             </tr>
             <tr>
-              <td><code>&lt;p></code></td>
+              <td>
+                <pre><code class="language-html">&lt;p></code></pre>
+              </td>
               <td>Paragraph</td>
             </tr>
             <tr>
-              <td><code>&lt;strong></code></td>
+              <td>
+                <pre><code class="language-html">&lt;strong></code></pre>
+              </td>
               <td>Bold Text</td>
             </tr>
             <tr>
-              <td><code>&lt;em></code></td>
+              <td>
+                <pre><code class="language-html">&lt;em></code></pre>
+              </td>
               <td>Italic Text</td>
             </tr>
             <tr>
-              <td><code>&lt;!--HTML COMMENT--></code></td>
+              <td>
+                <pre><code class="language-html">&lt;!--HTML COMMENT--></code></pre>
+              </td>
               <td>Comment, no functionality in code</td>
             </tr>
           </tbody>
@@ -413,11 +489,87 @@
               <td>Bold Text</td>
             </tr>
             <tr>
-              <td><code>&lt;em></code></td>
+              <td><pre>&lt;em></pre></td>
               <td>Italic Text</td>
             </tr>
             <tr>
-              <td><code>&lt;!--HTML COMMENT--></code></td>
+              <td><pre>&lt;!--HTML COMMENT--></pre></td>
+              <td>Comment, no functionality in code</td>
+            </tr>
+          </tbody>
+        </table>
+        <figure>
+          <img
+            src="https://img.freepik.com/vektoren-kostenlos/niedlicher-baer-der-mit-swag-brille-tupft-cartoon-vektor-symbol-illustration-tier-feiertag-isoliert-flach_138676-8359.jpg?w=996&t=st=1688032100~exp=1688032700~hmac=bb71671f09e1ffc675a1e4605eb21dea5f22bb1b977353ad616fc87798bcfd15"
+            alt="Image of a bear doing a dab gesture"
+            width="300px"
+            loading="lazy" />
+          <figcaption>
+            <a href="https://de.freepik.com/autor/catalyststuff" target="_blank"
+              >Image by catalyststuff</a
+            >
+            on Freepik
+          </figcaption>
+        </figure>
+      </section>
+      <!-- JS SECTION STARTING -->
+      <h2>JavaScript Cheatsheet</h2>
+      <section id="js-cheatsheet" class="cheatsheet">
+        <table border="1">
+          <thead>
+            <tr>
+              <td><strong>Tag</strong></td>
+              <td><strong>Description</strong></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <code>&lt;a href=""></code>
+              </td>
+              <td>
+                Anchor tag or hyperlink. Link to external URLs or sections on
+                the page.
+              </td>
+            </tr>
+            <tr>
+              <td><code>&lt;body></code></td>
+              <td>The document's body is required.</td>
+            </tr>
+            <tr>
+              <td><code>&lt;br></code></td>
+              <td>Single line text break.</td>
+            </tr>
+            <tr>
+              <td><code>&lt;form></code></td>
+              <td>Form for user input which wraps the input fields.</td>
+            </tr>
+            <tr>
+              <td><code>&lt;h1, h2, h3, h4, ...></code></td>
+              <td>HTML headings. H1 is the main heading of the page.</td>
+            </tr>
+            <tr>
+              <td><code>&lt;img></code></td>
+              <td>Image on the page.</td>
+            </tr>
+            <tr>
+              <td><code>&lt;ol></code></td>
+              <td>Ordered List</td>
+            </tr>
+            <tr>
+              <td><code>&lt;p></code></td>
+              <td>Paragraph</td>
+            </tr>
+            <tr>
+              <td><code>&lt;strong></code></td>
+              <td>Bold Text</td>
+            </tr>
+            <tr>
+              <td><pre>&lt;em></pre></td>
+              <td>Italic Text</td>
+            </tr>
+            <tr>
+              <td><pre>&lt;!--HTML COMMENT--></pre></td>
               <td>Comment, no functionality in code</td>
             </tr>
           </tbody>
@@ -455,7 +607,7 @@
           <span>CSS Cheatsheet</span></a
         >
         <a href="#js-cheatsheet"
-          ><img src="assets/javascript-original.svg" alt="CSS3 Logo" />
+          ><img src="assets/javascript-original.svg" alt="JS Logo" />
           <span>JS Cheatsheet</span></a
         >
       </footer>

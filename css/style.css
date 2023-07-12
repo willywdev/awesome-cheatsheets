@@ -2,7 +2,6 @@
   font-family: "MicroGrotesk";
   src: url("MicroGrotesk.ttf");
 }
-
 * {
   box-sizing: border-box;
 }
@@ -123,8 +122,6 @@ thead {
 
 td {
   padding: 8px;
-  font-size: 0.9rem;
-  line-height: 2rem;
 }
 
 .quicklinks a {
