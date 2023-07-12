@@ -211,3 +211,24 @@ footer a:hover {
 footer span {
   display: none;
 }
+@media (min-width: 768px) {
+  main {
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+  nav a {
+    display: block;
+  }
+  footer {
+    height: 7%;
+  }
+  footer img {
+    width: 50px;
+    height: 50px;
+  }
+  .quicklinks {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0 1rem;
+  }
+}
