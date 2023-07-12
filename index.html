@@ -452,9 +452,9 @@ mv [file][new filename/path]
             <tr>
               <td>
                 <pre><code class="language-css">
-selector { <br>
-property: value; <br>
-property2: value2; <br>
+selector {
+  property: value;
+  property2: value2;
 }
                 </code></pre>
               </td>
@@ -521,52 +521,71 @@ type="text/css" href="/style.css" />
           <tbody>
             <tr>
               <td>
-                <code>&lt;a href=""></code>
+                <pre><code class="language-html">&lt;script src="filename.js">&lt;/script></code></pre>
+              </td>
+              <td>Include / Import external JavaScript File</td>
+            </tr>
+            <tr>
+              <td>
+                <pre>
+<code class="language-javascript">setTimeout(function () {
+}, 1000);</code></pre>
+              </td>
+              <td>1 Second Timeout Function</td>
+            </tr>
+            <tr>
+              <td>
+                <pre>
+<code class="language-javascript">function addNumbers(a, b) {
+  return a + b;
+}</code></pre>
               </td>
               <td>
-                Anchor tag or hyperlink. Link to external URLs or sections on
-                the page.
+                Regular function adding two numbers given to it via parameter
               </td>
             </tr>
             <tr>
-              <td><code>&lt;body></code></td>
-              <td>The document's body is required.</td>
+              <td>
+                <pre>
+<code class="language-javascript">const addNumbers = (a, b) => {
+  return a + b;
+}</code></pre>
+              </td>
+              <td>Same function as Arrow Function</td>
             </tr>
             <tr>
-              <td><code>&lt;br></code></td>
-              <td>Single line text break.</td>
+              <td>
+                <pre>
+<code class="language-javascript">document.getElementById("elementID")
+  .innerHTML = "Hello World!";</code
+                  ></pre>
+              </td>
+              <td>Getting an Element in the DOM by ID.</td>
             </tr>
             <tr>
-              <td><code>&lt;form></code></td>
-              <td>Form for user input which wraps the input fields.</td>
+              <td>
+                <pre><code class="language-javascript">console.log(a);</code></pre>
+              </td>
+              <td>write to console.</td>
             </tr>
             <tr>
-              <td><code>&lt;h1, h2, h3, h4, ...></code></td>
-              <td>HTML headings. H1 is the main heading of the page.</td>
+              <td>
+                <pre>
+<code class="language-javascript">for (var i = 0; i < 10; i++) {
+  console.log(i + ": " + i*3 + "<br />");
+}</code></pre>
+              </td>
+              <td>For Loop</td>
             </tr>
             <tr>
-              <td><code>&lt;img></code></td>
-              <td>Image on the page.</td>
-            </tr>
-            <tr>
-              <td><code>&lt;ol></code></td>
-              <td>Ordered List</td>
-            </tr>
-            <tr>
-              <td><code>&lt;p></code></td>
-              <td>Paragraph</td>
-            </tr>
-            <tr>
-              <td><code>&lt;strong></code></td>
-              <td>Bold Text</td>
-            </tr>
-            <tr>
-              <td><pre>&lt;em></pre></td>
-              <td>Italic Text</td>
-            </tr>
-            <tr>
-              <td><pre>&lt;!--HTML COMMENT--></pre></td>
-              <td>Comment, no functionality in code</td>
+              <td>
+                <pre>
+<code class="language-javascript">while (i < 100) {
+  i *= 2;
+  document.write(i + ", ");
+}</code></pre>
+              </td>
+              <td>While Loop</td>
             </tr>
           </tbody>
         </table>
