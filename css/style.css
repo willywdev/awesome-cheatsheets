@@ -211,6 +211,9 @@ footer span {
   display: none;
 }
 @media (min-width: 768px) {
+  header {
+    height: 12%;
+  }
   main {
     margin-top: 20%;
     margin-bottom: 20%;
