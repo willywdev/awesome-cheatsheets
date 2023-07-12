@@ -107,9 +107,10 @@ table tr:nth-child(2n + 2) {
   background-color: hsl(20, 20%, 50%);
 }
 thead {
-  background-color: #b9967c;
-  color: #f9dec9;
+  background-color: #d3b9a5;
+  color: #685044;
   text-align: center;
+  font-size: 1rem;
 }
 td {
   padding: 8px;
