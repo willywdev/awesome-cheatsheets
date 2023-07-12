@@ -2,6 +2,9 @@
   font-family: "MicroGrotesk";
   src: url("MicroGrotesk.ttf");
 }
+html {
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
 }
@@ -27,7 +30,6 @@ a:hover {
 }
 img {
   border-radius: 20px;
-  width: 200px;
   border: 2px solid #685044;
   display: none;
 }
@@ -122,8 +124,6 @@ td {
   border: none;
   border-radius: none;
   vertical-align: middle;
-}
-.cheatsheet {
 }
 figure {
   width: 250px;
@@ -230,6 +230,7 @@ footer span {
     display: flex;
     justify-content: center;
     align-items: center;
+    scroll-margin-top: 210px;
   }
   .cheatsheet {
     display: flex;
@@ -241,9 +242,13 @@ footer span {
   }
   figure {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   img {
     display: block;
+    width: 350px;
   }
   figcaption {
     display: block;
@@ -269,5 +274,8 @@ footer span {
   }
   td:first-child {
     width: 50%;
+  }
+  table {
+    width: 45%;
   }
 }
