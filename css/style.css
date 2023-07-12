@@ -5,10 +5,9 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   background-color: #f9dec9;
-  color: black;
+  color: #000000;
   font-family: "MicroGrotesk", Arial;
   letter-spacing: 1.2px;
   margin-top: 0;
@@ -19,16 +18,13 @@ main {
   margin-top: 25%;
   margin-bottom: 25%;
 }
-
 a {
   color: #ff6f00;
   text-decoration: none;
 }
-
 a:hover {
   color: #685044;
 }
-
 img {
   border-radius: 20px;
   width: 200px;
@@ -39,7 +35,6 @@ figcaption {
   display: none;
 }
 /* ! split spacing for nav items to be equally divided */
-
 header {
   display: flex;
   flex-direction: column;
@@ -51,14 +46,12 @@ header {
   top: 0;
   background-color: #685044;
 }
-
 header h1 {
   text-align: center;
   border-right: none;
   color: #f9dec9;
   font-size: 1.4rem;
 }
-
 nav {
   display: flex;
   align-items: center;
@@ -66,7 +59,6 @@ nav {
   width: 100%;
   gap: 1rem;
 }
-
 nav a {
   background-color: #f9dec9;
   padding: 5px;
@@ -76,13 +68,11 @@ nav a {
   border: 2px solid transparent;
   display: none;
 }
-
 nav a:hover {
   color: #f9dec9;
   background-color: #685044;
   border: 2px solid #f9dec9;
 }
-
 h2,
 h3,
 h4,
@@ -94,35 +84,29 @@ h6 {
   padding-right: 0.625rem;
   padding-left: 0.313rem;
 }
-
 table {
   color: #f9dec9;
   border-collapse: collapse;
   background-color: #685044;
   margin-right: 0;
 }
-
 table,
 tr,
 td,
 thead {
   border: 1px solid black;
 }
-
 table tr:nth-child(2n + 2) {
   background-color: hsl(20, 20%, 50%);
 }
-
 thead {
   background-color: #b9967c;
   color: #f9dec9;
   text-align: center;
 }
-
 td {
   padding: 8px;
 }
-
 .quicklinks a {
   margin-bottom: 8px;
 }
@@ -135,22 +119,18 @@ td {
 }
 .cheatsheet {
 }
-
 figure {
   width: 250px;
   text-align: center;
   font-size: 0.8rem;
 }
-
 section {
   scroll-margin-top: 190px;
 }
-
 .quicklinks {
   display: flex;
   flex-direction: column;
 }
-
 footer {
   display: flex;
   position: fixed;
@@ -166,12 +146,11 @@ footer {
   font-size: 0.9rem;
   gap: 1rem;
 }
-
 footer img {
   all: unset;
   width: 30px;
   height: 30px;
-  color: white;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 50%);
   border-radius: 25%;
   padding: 0.2rem;
@@ -246,7 +225,6 @@ footer span {
     justify-content: center;
     align-items: center;
   }
-
   .cheatsheet {
     display: flex;
     justify-content: space-around;
