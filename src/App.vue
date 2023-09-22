@@ -1,5 +1,8 @@
-<script></script>
+<script setup>
+import "./assets/base.css";
+import Navbar from "./components/Navbar.vue";
+</script>
 
-<template></template>
-
-<style></style>
+<template>
+  <Navbar />
+</template>
