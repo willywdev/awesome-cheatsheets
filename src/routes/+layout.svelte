@@ -1,53 +1,39 @@
 <script>
-	import Header from './Header.svelte';
-	import './styles.css';
+  import isMobile from "@/stores/isMobile.js";
+  import { AppShell } from "@skeletonlabs/skeleton";
+  import "../app.postcss";
+  import Header from '../components/Header.svelte';
+  import { checkIfMobile } from '../lib/utils/checkIfMobile';
+  import "./styles.css";
+  checkIfMobile();
+	$: hideSidebar = $isMobile
+
 </script>
 
+<svelte:head>
+	<title>Awesome Cheatsheets</title>
+	<meta name="description" content="Awesome Cheatsheets for Web Developers" />
+</svelte:head>
+
 <div class="app">
-	<Header />
+<AppShell>
+	<svelte:fragment slot="header"><Header /></svelte:fragment>
 
-	<main>
-		<slot />
-	</main>
+	<svelte:fragment slot="sidebarLeft">
+		{#if !hideSidebar }
+		Sidebar Left
+		{/if}
+	</svelte:fragment>
 
-	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-	</footer>
+	<!-- (sidebarRight) -->
+	<!-- (pageHeader) -->
+	<!-- Router Slot -->
+	<slot />
+	<!-- ---- / ---- -->
+	<svelte:fragment slot="pageFooter">Page Footer</svelte:fragment>
+	<!-- (footer) -->
+</AppShell>
 </div>
 
 <style>
-	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
-
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	}
 </style>
