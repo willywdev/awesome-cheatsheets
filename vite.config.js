@@ -1,5 +1,6 @@
 import { sveltekit } from "@sveltejs/kit/vite";
 import { defineConfig } from "vite";
+import purgeCss from "vite-plugin-tailwind-purgecss";
 
 export default defineConfig({
   resolve: {
@@ -7,5 +8,12 @@ export default defineConfig({
       "@": "/src/",
     },
   },
-  plugins: [sveltekit()],
+  plugins: [
+    sveltekit(),
+    purgeCss({
+      safelist: {
+        greedy: [/^hljs-/],
+      },
+    }),
+  ],
 });
