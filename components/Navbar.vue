@@ -1,5 +1,6 @@
 <template>
-  <aside class="">
+  <aside
+    class="sidebar fixed top-20 bottom-0 lg:left-0 p-2 w-[300px] overflow-y-auto text-center bg-gray-900">
     <nav>
       <ul>
         <li>Eins</li>
