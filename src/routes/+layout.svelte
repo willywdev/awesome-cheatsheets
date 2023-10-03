@@ -17,7 +17,8 @@
 	</svelte:fragment>
 	<svelte:fragment slot="sidebarLeft">
 		<section class="fixed hidden w-1/4 h-full bg-surface-50-900-token md:block" id="sidebarLeft">
-
+			<h3 class="mt-2 ml-4 text-xl">Categories</h3>
+			
 		</section>
 	</svelte:fragment>
 	<!-- Page Route Content -->
