@@ -1,10 +1,7 @@
 <script>
+	import Header from '$lib/components/Header.svelte';
 	import { AppShell } from '@skeletonlabs/skeleton';
 	import '../app.postcss';
-	import Header from '../lib/components/Header.svelte';
-	import { checkIfMobile } from "../lib/utils/checkIfMobile";
-	checkIfMobile()
-	
 </script>
 
 <svelte:head>
