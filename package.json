@@ -24,6 +24,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@floating-ui/dom": "^1.5.3",
     "@fontsource/lato": "^5.0.13",
     "svelte-hamburgers": "^4.1.1"
   }

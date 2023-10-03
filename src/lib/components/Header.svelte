@@ -15,6 +15,6 @@
         <div class="items-center hidden gap-3 md:flex">
             <NavLinks />
         </div>
-        <HamburgerMenu class="md:hidden"/>
+        <HamburgerMenu/>
     </svelte:fragment>
 </AppBar>

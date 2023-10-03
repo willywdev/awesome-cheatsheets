@@ -15,6 +15,11 @@
 		<!-- App Bar -->
 		<Header />
 	</svelte:fragment>
+	<svelte:fragment slot="sidebarLeft">
+		<section class="fixed hidden w-1/4 h-full bg-surface-50-900-token md:block" id="sidebarLeft">
+
+		</section>
+	</svelte:fragment>
 	<!-- Page Route Content -->
 	<slot />
 </AppShell>
