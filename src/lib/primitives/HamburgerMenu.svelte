@@ -1,6 +1,7 @@
 <script>
     import { Hamburger } from "svelte-hamburgers";
-    import { fly } from "svelte/transition";
+    import { slide } from "svelte/transition";
+    import NavLinks from './NavLinks.svelte';
     let open;
 </script>
 
@@ -9,19 +10,10 @@
 </div>
 {#if open}
    <div class="fixed inset-0 z-10 flex items-center justify-end md:hidden">
-       <nav transition:fly class="flex flex-col items-center justify-center w-1/2 gap-3 py-5 overflow-y-auto z-5 rounded-xl">
-           <a href="/" class="text-white">Test 1</a>
-           <a href="/">Test 2</a>
-           <a href="/">Test 3</a>
-           <a href="/">Test 4</a>
-           <a
-            class="btn btn-sm variant-ghost-surface"
-            href="https://github.com/skeletonlabs/skeleton"
-            target="_blank"
-            rel="noreferrer"
-        >
-            GitHub
-        </a>
+       <nav transition:slide={{
+         axis: "x"
+       }} class="flex flex-col items-center justify-end w-3/4 h-full gap-3 py-5 overflow-y-auto bg-surface-50-900-token z-5">
+           <NavLinks />
        </nav>
    </div>
 {/if}
