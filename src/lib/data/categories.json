@@ -1,0 +1,80 @@
+{
+  "General": [
+    {
+      "name": "General",
+      "icon": "",
+      "url": ""
+    },
+    {
+      "name": "HTML",
+      "icon": "",
+      "url": ""
+    },
+    {
+      "name": "CSS",
+      "icon": "",
+      "url": ""
+    },
+    {
+      "name": "JavaScript",
+      "icon": "",
+      "url": ""
+    },
+    {
+      "name": "TypeScript",
+      "icon": "",
+      "url": ""
+    }
+  ],
+  "Frontend Frameworks": [
+    {
+      "name": "Angular",
+      "icon": "",
+      "url": ""
+    },
+    {
+      "name": "React",
+      "icon": "",
+      "url": ""
+    },
+    {
+      "name": "Vue",
+      "icon": "",
+      "url": ""
+    },
+    {
+      "name": "Svelte",
+      "icon": "",
+      "url": ""
+    }
+  ],
+  "JavaScript Runtimes": [
+    {
+      "name": "NodeJS",
+      "icon": "",
+      "url": ""
+    },
+    {
+      "name": "Deno",
+      "icon": "",
+      "url": ""
+    },
+    {
+      "name": "BunJS",
+      "icon": "",
+      "url": ""
+    }
+  ],
+  "Backend Frameworks": [
+    {
+      "name": "Next.js",
+      "icon": "",
+      "url": ""
+    },
+    {
+      "name": "Express.js",
+      "icon": "",
+      "url": ""
+    }
+  ]
+}

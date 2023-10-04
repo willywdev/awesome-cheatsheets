@@ -6,7 +6,7 @@
 
 			
 
-<a href="/" class="flex items-center gap-0.5 text-base hover:text-primary-500"><Icon icon="ic:outline-home" color="bg-surcace-50-900-token" width="20"/> Home</a>
+<a href="/" class="flex items-center gap-0.5 text-lg hover:text-primary-500"><Icon icon="ic:outline-home" color="bg-surcace-50-900-token" width="20"/> Home</a>
 <details href="/" class="text-base cursor-pointer md:hidden "><summary class="hover:text-primary-500">Categories</summary>
     <div class="flex flex-col items-center gap-1">
         <a href="/" class="hover:text-primary-500">Test 1</a>
