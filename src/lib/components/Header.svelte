@@ -4,11 +4,11 @@
     import NavLinks from '../primitives/NavLinks.svelte';
 </script>
 
-<AppBar>
+<AppBar class="shadow-lg">
     <svelte:fragment slot="lead">
         <a href="/" class="flex items-center gap-2">
             <Avatar initials="AC" background="bg-primary-500"/>
-            <div class="flex flex-col items-end">
+            <div class="flex flex-col">
                 <strong class="text-xl uppercase">Awesome Cheatsheets</strong>
                 <p class="-mt-2 text-sm">by willywdev</p>
             </div>
