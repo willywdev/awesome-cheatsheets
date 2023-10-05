@@ -10,7 +10,7 @@
             <Avatar initials="AC" background="bg-primary-500"/>
             <div class="flex flex-col">
                 <strong class="text-xl uppercase">Awesome Cheatsheets</strong>
-                <p class="-mt-2 text-sm">by willywdev</p>
+                <p class="hidden -mt-2 text-sm md:block">by willywdev</p>
             </div>
         </a>
     </svelte:fragment>

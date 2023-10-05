@@ -5,10 +5,7 @@
 	import LeftSidebar from '../lib/components/LeftSidebar.svelte';
 </script>
 
-<svelte:head>
-	<title>Awesome Cheatsheets</title>
-	<meta name="description" content="Awesome Cheatsheets for Web Developers">
-</svelte:head>
+
 
 <!-- App Shell -->
 <AppShell>
@@ -20,5 +17,9 @@
 		<LeftSidebar />
 	</svelte:fragment>
 	<!-- Page Route Content -->
-	<slot />
+<div class="md:w-3/4 md:ml-auto md:mr-0">
+	<main class="p-2 m-2 card variant-glass-surface">
+		<slot/>
+	</main>
+</div>
 </AppShell>
