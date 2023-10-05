@@ -1,79 +1,74 @@
 {
   "General": [
     {
-      "name": "General",
-      "icon": "",
-      "url": ""
-    },
-    {
       "name": "HTML",
-      "icon": "",
+      "icon": "skill-icons:html",
       "url": ""
     },
     {
       "name": "CSS",
-      "icon": "",
+      "icon": "skill-icons:css",
       "url": ""
     },
     {
       "name": "JavaScript",
-      "icon": "",
+      "icon": "skill-icons:javascript",
       "url": ""
     },
     {
       "name": "TypeScript",
-      "icon": "",
+      "icon": "skill-icons:typescript",
       "url": ""
     }
   ],
   "Frontend Frameworks": [
     {
       "name": "Angular",
-      "icon": "",
+      "icon": "skill-icons:angular-dark",
       "url": ""
     },
     {
       "name": "React",
-      "icon": "",
+      "icon": "skill-icons:react-dark",
       "url": ""
     },
     {
       "name": "Vue",
-      "icon": "",
+      "icon": "skill-icons:vuejs-dark",
       "url": ""
     },
     {
       "name": "Svelte",
-      "icon": "",
+      "icon": "skill-icons:svelte",
       "url": ""
     }
   ],
   "JavaScript Runtimes": [
     {
       "name": "NodeJS",
-      "icon": "",
+      "icon": "skill-icons:nodejs-dark",
       "url": ""
     },
     {
       "name": "Deno",
-      "icon": "",
+      "icon": "skill-icons:deno-dark",
       "url": ""
     },
     {
       "name": "BunJS",
-      "icon": "",
+      "icon": "logos:bun",
       "url": ""
     }
   ],
   "Backend Frameworks": [
     {
       "name": "Next.js",
-      "icon": "",
+      "icon": "skill-icons:nextjs-dark",
       "url": ""
     },
     {
       "name": "Express.js",
-      "icon": "",
+      "icon": "skill-icons:expressjs-dark",
       "url": ""
     }
   ]
