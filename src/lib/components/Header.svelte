@@ -8,7 +8,10 @@
     <svelte:fragment slot="lead">
         <a href="/" class="flex items-center gap-2">
             <Avatar initials="AC" background="bg-primary-500"/>
-            <strong class="text-xl uppercase">Awesome Cheatsheets</strong>
+            <div class="flex flex-col items-end">
+                <strong class="text-xl uppercase">Awesome Cheatsheets</strong>
+                <p class="-mt-2 text-sm">by willywdev</p>
+            </div>
         </a>
     </svelte:fragment>
     <svelte:fragment slot="trail">
