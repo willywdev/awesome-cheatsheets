@@ -1,6 +1,11 @@
 {
   "General": [
     {
+      "name": "Home",
+      "icon": "solar:home-bold",
+      "url": "/"
+    },
+    {
       "name": "HTML",
       "icon": "skill-icons:html",
       "url": ""
