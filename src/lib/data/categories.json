@@ -1,0 +1,80 @@
+{
+  "General": [
+    {
+      "name": "Home",
+      "icon": "solar:home-bold",
+      "url": "/"
+    },
+    {
+      "name": "HTML",
+      "icon": "skill-icons:html",
+      "url": "/html"
+    },
+    {
+      "name": "CSS",
+      "icon": "skill-icons:css",
+      "url": "/css"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "skill-icons:javascript",
+      "url": "/javascript"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "skill-icons:typescript",
+      "url": "/typescript"
+    }
+  ],
+  "Frontend Frameworks": [
+    {
+      "name": "Angular",
+      "icon": "skill-icons:angular-dark",
+      "url": "/angular"
+    },
+    {
+      "name": "React",
+      "icon": "skill-icons:react-dark",
+      "url": "/react"
+    },
+    {
+      "name": "Vue",
+      "icon": "skill-icons:vuejs-dark",
+      "url": "/vue"
+    },
+    {
+      "name": "Svelte",
+      "icon": "skill-icons:svelte",
+      "url": "/svelte"
+    }
+  ],
+  "JavaScript Runtimes": [
+    {
+      "name": "NodeJS",
+      "icon": "skill-icons:nodejs-dark",
+      "url": "/node"
+    },
+    {
+      "name": "Deno",
+      "icon": "skill-icons:deno-dark",
+      "url": "/deno"
+    },
+    {
+      "name": "BunJS",
+      "icon": "logos:bun",
+      "url": "/bun"
+    }
+  ],
+  "Backend Frameworks": [
+    {
+      "name": "Next.js",
+      "icon": "skill-icons:nextjs-dark",
+      "url": "/next"
+    },
+    {
+      "name": "Express.js",
+      "icon": "skill-icons:expressjs-dark",
+      "url": "/express"
+    }
+  ]
+}
