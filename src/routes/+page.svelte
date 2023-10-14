@@ -8,6 +8,7 @@
 </svelte:head>
 
 <section class="flex flex-col items-center ">
+    <p class="text-center opacity-50">Click on Categories to check out Guides, Lists & Awesome Cheatsheets!</p>
     <div class="p-2">
         <img src={landingPageImage} alt="Landing Page" class="border-2 border-solid rounded-lg shadow-md border-primary-500" loading="lazy">
     </div>
