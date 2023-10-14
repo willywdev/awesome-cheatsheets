@@ -6,6 +6,11 @@
       "url": "/"
     },
     {
+      "name": "General",
+      "icon": "solar:book-bold",
+      "url": "/general"
+    },
+    {
       "name": "HTML",
       "icon": "skill-icons:html",
       "url": "/html"
@@ -75,6 +80,11 @@
       "name": "Express.js",
       "icon": "skill-icons:expressjs-dark",
       "url": "/express"
+    },
+    {
+      "name": "Deployments",
+      "icon": "skill-icons:vercel-dark",
+      "url": "/deployments"
     }
   ]
 }
