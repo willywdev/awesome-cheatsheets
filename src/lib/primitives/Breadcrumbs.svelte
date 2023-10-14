@@ -1,6 +1,9 @@
 <script>
     // prop is getting set by sites
     export let slug;
+    import changeStringFirstLetter from "$lib/utils/changeStringFirstLetter.js"
+
+    const newSlug = changeStringFirstLetter(slug.slug)
 </script>
 
 
@@ -9,6 +12,6 @@
 	<li class="crumb"><a class="anchor" href="/">Home</a></li>
     {#if slug}
 	<li class="crumb-separator" aria-hidden>&rsaquo;</li>
-	<li>{slug.slug}</li>
+	<li>{newSlug}</li>
     {/if}
 </ol>
