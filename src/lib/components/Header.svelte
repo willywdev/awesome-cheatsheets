@@ -1,13 +1,14 @@
 <script>
     import HamburgerMenu from '$lib/primitives/HamburgerMenu.svelte';
-    import { AppBar, Avatar } from '@skeletonlabs/skeleton';
+    import { AppBar } from '@skeletonlabs/skeleton';
     import NavLinks from '../primitives/NavLinks.svelte';
+    import Logo from "$lib/images/logo.svg"
 </script>
 
 <AppBar class="shadow-lg">
     <svelte:fragment slot="lead">
         <a href="/" class="flex items-center gap-2">
-            <Avatar initials="AC" background="bg-primary-500"/>
+            <img src={Logo} alt="Logo" class="w-16 h-auto">
             <div class="flex flex-col">
                 <strong class="text-xl uppercase">Awesome Cheatsheets</strong>
                 <p class="hidden -mt-2 text-sm md:block">by willywdev</p>
