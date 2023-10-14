@@ -29,6 +29,11 @@
       "name": "TypeScript",
       "icon": "skill-icons:typescript",
       "url": "/typescript"
+    },
+    {
+      "name": "Deployments",
+      "icon": "skill-icons:vercel-dark",
+      "url": "/deployments"
     }
   ],
   "Frontend Frameworks": [
@@ -80,11 +85,6 @@
       "name": "Express.js",
       "icon": "skill-icons:expressjs-dark",
       "url": "/express"
-    },
-    {
-      "name": "Deployments",
-      "icon": "skill-icons:vercel-dark",
-      "url": "/deployments"
     }
   ]
 }

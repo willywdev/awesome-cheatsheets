@@ -4,7 +4,7 @@
     import Categories from './Categories.svelte';
 </script>
 
-<div class="flex flex-col items-center gap-1 md:hidden">
+<div class="flex flex-col items-center w-full gap-1 overflow-y-auto md:hidden">
     <Categories />
 </div>
 <!--Bottom Row-->
