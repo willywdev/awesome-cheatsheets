@@ -5,7 +5,7 @@
     import Logo from "$lib/images/logo.svg"
 </script>
 
-<AppBar class="shadow-lg">
+<AppBar class="shadow-xl">
     <svelte:fragment slot="lead">
         <a href="/" class="flex items-center gap-2">
             <img src={Logo} alt="Logo" class="w-16 h-auto">
