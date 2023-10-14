@@ -18,7 +18,7 @@
 	</svelte:fragment>
 	<!-- Page Route Content -->
 <div class="md:w-3/4 md:ml-auto md:mr-0">
-	<main class="p-2 m-2 card variant-glass-surface">
+	<main class="p-2 m-2 shadow-lg card variant-glass-surface">
 		<slot/>
 	</main>
 </div>
