@@ -4,7 +4,7 @@
 </script>
 
 <div>
-    <nav class="flex flex-col gap-2 text-xl lg:items-center">
+    <nav class="flex flex-col gap-2 text-xl">
         {#each general as links}
             <a href={links.url} class="flex items-center gap-1 hover:text-primary-500"><Icon icon={links.icon} />{links.name}</a>
         {/each}
