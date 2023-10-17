@@ -2,10 +2,9 @@
 	import Header from '$lib/components/Header.svelte';
 	import { AppShell } from '@skeletonlabs/skeleton';
 	import '../app.postcss';
+	import Content from '../lib/components/Content.svelte';
 	import LeftSidebar from '../lib/components/LeftSidebar.svelte';
 </script>
-
-
 
 <!-- App Shell -->
 <AppShell>
@@ -17,9 +16,7 @@
 		<LeftSidebar />
 	</svelte:fragment>
 	<!-- Page Route Content -->
-<div class="p-1 md:w-3/4 md:ml-auto md:mr-0">
-	<main class="p-2 m-2 shadow-xl card variant-glass-surface">
-		<slot/>
-	</main>
-</div>
+	<Content>
+		<slot />
+	</Content>
 </AppShell>
