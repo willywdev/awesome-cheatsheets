@@ -1,9 +1,12 @@
 <script>
-// svelte docs: data prop that is given from +page.js
 export let data;
 import changeStringFirstLetter from "$lib/utils/changeStringFirstLetter.js"
+import cheatsheets from "$lib/data/cheatsheets"
 
 $: slug = changeStringFirstLetter(data.slug);
+$: slugLowercase = data.slug.toLowerCase();
+
+console.log(cheatsheets)
 </script>
 
 <svelte:head>
@@ -12,4 +15,4 @@ $: slug = changeStringFirstLetter(data.slug);
 </svelte:head>
 
 
-<h2>Hello!</h2>
+<h2 class="mt-3 mb-1 text-xl font-bold text-center text-primary-400" >{slug.toUpperCase()}</h2>
