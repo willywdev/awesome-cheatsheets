@@ -4,7 +4,10 @@ to the page via the data prop */
 import { supabase } from "$lib/supabaseClient.js";
 
 export async function load({ params }) {
-  const { data, error } = await supabase.from("cheatsheets").select("*");
+  const { data, error } = await supabase
+    .from("cheatsheets")
+    .select("*")
+    .eq("category", params.slug);
 
   if (error) {
     throw new Error(error.message);

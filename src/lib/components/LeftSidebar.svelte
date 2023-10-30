@@ -2,10 +2,9 @@
     import Categories from '../primitives/Categories.svelte';
 </script>
 
-<section class="fixed hidden w-1/4 h-full pt-4 shadow-xl bg-surface-50-900-token md:block lg:text-center" id="sidebarLeft">
-    <h3 class="mb-2 text-xl text-center">Categories</h3>
-    <div class="w-full h-0.5 mb-2 bg-surface-50"></div>
-    <div class="flex justify-center pt-2">
+<section class="fixed hidden w-1/4 h-full pt-4 shadow-xl bg-surface-50-900-token md:block" id="sidebarLeft">
+    <div class="flex flex-col justify-start pt-2 ml-4">
+        <h3 class="mb-2 text-xl opacity-60">Categories</h3>
         <Categories />
     </div>
 </section>

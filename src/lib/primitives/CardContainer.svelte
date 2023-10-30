@@ -1,3 +1,3 @@
-<ul class="flex gap-5 p-3">
+<ul class="grid w-full grid-cols-2 gap-5 p-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
     <slot />
 </ul>
