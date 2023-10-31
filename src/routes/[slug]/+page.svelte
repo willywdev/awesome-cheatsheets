@@ -16,7 +16,10 @@ $: slug = data.slug;
 <CardContainer>
 		{#each cheatsheet as item}
 			<a href={item.url} target="_blank" class="block max-w-sm p-4 border rounded-lg shadow h-50 border-surface-300 bg-surface-100 hover:bg-gray-100 dark:bg-surface-700 dark:border-surface-500 dark:hover:bg-surface-500">
-				<li>
+				<li class="relative">
+					{#if item.isGoat}
+					<div aria-label="recommended" class="absolute right-0">🐐</div>
+					{/if}
 					<h3 class="mb-1 text-lg font-bold tracking-tight">{item.title}</h3>
 					<p class="font-normal text-gray-700 dark:text-gray-400">{item.description}</p>
 					<p class="text-sm text-gray-600 dark:text-gray-500">{new URL(item.url).hostname}</p>
