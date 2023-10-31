@@ -4,7 +4,7 @@
 </script>
 
 <div>
-    <nav class="flex flex-col gap-2 text-xl">
+    <nav class="flex flex-col gap-2.5 text-xl">
         {#each categories as category}
             <CategoryLink url={category.url} name={category.name} icon={category.icon}/>
         {/each}

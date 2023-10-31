@@ -30,6 +30,11 @@
     "url": "/typescript"
   },
   {
+    "name": "UI Components",
+    "icon": "logos:headlessui-icon",
+    "url": "/ui-components"
+  },
+  {
     "name": "Deployments",
     "icon": "skill-icons:vercel-dark",
     "url": "/deployments"

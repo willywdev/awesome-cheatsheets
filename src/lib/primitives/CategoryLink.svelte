@@ -6,5 +6,5 @@
 </script>
 
 <a href={url} class="flex items-center gap-2 hover:text-primary-500">
-    <Icon icon={icon} width="22"/>{name}
+    <Icon icon={icon} width="26"/>{name}
 </a>
