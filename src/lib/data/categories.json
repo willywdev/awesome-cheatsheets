@@ -98,5 +98,10 @@
     "name": "React Native",
     "icon": "vscode-icons:file-type-reactts",
     "url": "/react-native"
+  },
+  {
+    "name": "Rust",
+    "icon": "skill-icons:rust",
+    "url": "/rust"
   }
 ]
